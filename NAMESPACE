@@ -1,0 +1,8 @@
+import('Matrix')
+import('mvtnorm')
+useDynLib(LFabs, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+
+export(LFabs)
+export(cv.LFabs)
+export(generator)

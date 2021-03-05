@@ -1,0 +1,15 @@
+Package: LFabs
+Type: Package
+Title: LFabs
+Version: 1.1.0
+Authors@R: c(person(given = "Yiming", family = "Liu", role = c("aut", "cre"), email = "liuyimingsufe@163.com"), person(given = "Xiao", family = "Zhang", role = c("aut")), person(given = "Xingjie", family = "Shi", role = c("aut")))
+Author: Yiming Liu [aut,cre], Xiao Zhang [aut], Xingjie Shi [aut]
+Maintainer: Yiming Liu <liuyimingsufe@163.com>
+Description: High-dimensional smoothed partial rank estimation with sparse laplacian shrinkage for nonparametric transformation survival model. The laplacian penalty is to incorporate the correlation patterns among predictors. The adaptive lasso is used to yield a sparse estimator.
+License: GPL (>= 2)
+Imports: Matrix, mvtnorm
+Repository: github
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
